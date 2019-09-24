@@ -15,17 +15,17 @@ see ***Disable wireless network adapter*** below
 
 ### Turn on Hypervisor
 control panel -> Programs -> Turn Windows features on or off   
-
+   
 Enable all Hyper-v options.   
 ![image](https://user-images.githubusercontent.com/10190444/65516620-50ef1680-deaf-11e9-8922-9eba64bf4923.png)   
-
+   
 ### Download the windows version of Coderedy Containers and pull secet
 *** This requies a free Redhat account, signup for one if you dont already have one.   
 [Codeready Containers](https://cloud.redhat.com/openshift/install/crc/installer-provisioned?intcmp=7013a000002CtetAAC)    
-
+   
 ### Set a local path to the location of crc.exe
 ![set local path](https://user-images.githubusercontent.com/10190444/65509159-d23ead00-de9f-11e9-924e-0387be562ac3.png)
-
+   
 ### Start Openshift
 open a cmd prompt and setup your environment 
 ```bash
@@ -43,13 +43,14 @@ INFO To login as an admin, username is 'kubeadmin' and password is BMLkR-NjA28-v
 INFO
 INFO These credentials can also be used to access the OpenShift web console at https://console-openshift-console.apps-cr
 c.testing
-```
+```   
+
 ### Go to the Openshift console
 [https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)
 
-***See below if you get any errors***   
+## See below if you get any errors
 
-## Disable wireless network adapter
+### Disable wireless network adapter
 I have had issues where the Hyper-v virtual switch doesnt work if it uses the wirless adapter for the virtual ethernet card.   
 I have had to disable the wireless adapter so that Hyper-v chooses the Ethernet adapter for Default Switch.      
 * Go to Control Panel --> Network and Internet --> Network Connections   
