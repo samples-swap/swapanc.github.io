@@ -39,6 +39,8 @@ c.testing
 [https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)   
 
 ***see below if you get any errors***   
+### disable wireless network adapter
+i've had issues where the Hyper-v virtual switch doesnt work if it uses the wirless adapter for the virtual ethernet card
 
 ### fix windows 10 Pro bug if you get an error on crc start
 ```bash
