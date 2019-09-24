@@ -21,11 +21,11 @@ High Level oveview:
 2. Install and configure HyperV  on Windows 10 Pro
    * Turn on HyperV on Windows 10 Pro
      `control panel --> Programs --> Turn Windows Features on or off`
-     ![turn on hyperV](/openshift-learning/assets/img/hyperv_features_turn_on.png)   
+     ![turn on hyperV](../img/hyperv_features_turn_on.png)   
    
    * add your id to the HyperVisor Admnistrators Group via PowerShell:
      * run powershell as admninistrator   
-     ![Run Powershell as administrator](/openshift-learning/assets/img/powershell-run-as-administrator.png)       
+     ![Run Powershell as administrator](../img/powershell-run-as-administrator.png)       
      * Via Powershell add yourself to the Hyperv administrators group:   
      ```
      ([adsi]”WinNT://./Hyper-V Administrators,group”).Add(“WinNT://$env:UserDomain/$env:Username,user”)
@@ -34,19 +34,19 @@ High Level oveview:
    * create external virtual switch via HypeVadmin on your Ethernet adapter NOT wireless adapter.
     ***You may have to apply the following fix if the Virtual Switch creation errors out: [Virtual Switch Creation Error fix](https://support.microsoft.com/en-us/help/3101106/you-cannot-create-a-hyper-v-virtual-switch-on-64-bit-versions-of-windo) ***
    
-     ![HyperV Admin](/openshift-learning/assets/img/hyperv-manager-add-to-start-and-taskbar.png)      
+     ![HyperV Admin](../img/hyperv-manager-add-to-start-and-taskbar.png)      
           
-     ![HyperV Admin select virtual switch](/openshift-learning/assets/img/hypervmanager-select-virtual-switch-manager.png)        
+     ![HyperV Admin select virtual switch](../img/hypervmanager-select-virtual-switch-manager.png)        
    
-     ![HyperV Admin create external switch](/openshift-learning/assets/img/hypervmanager-create-external-switch.png)         
+     ![HyperV Admin create external switch](../img/hypervmanager-create-external-switch.png)         
       
      ***make sure to add the virtual switch against your Eternet network adapter and not your wifi adapter***    
-     ![HyperV Admin create external switch ethernet](/openshift-learning/assets/img/hyperv-manager-external-switch-wired-nic.png)       
+     ![HyperV Admin create external switch ethernet](../hyperv-manager-external-switch-wired-nic.png)       
 
 3. Download and start minishift with the following switches   
    * from where you downloaded and extract minishift   
    * start a powershell command window as administrator
-     ![Run Powershell as administrator](/openshift-learning/assets/img/powershell-run-as-administrator.png)      
+     ![Run Powershell as administrator](../img/powershell-run-as-administrator.png)      
    * cd to where you downloaded and extracted minishift      
    ```powershell
    c:\usr\minishift\minishift.exe start --hyperv-virtual-switch "minishiftvswitch" --memory 8GB
