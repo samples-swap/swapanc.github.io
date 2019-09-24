@@ -1,7 +1,7 @@
 ---
 layout: post
 published: false
-title: 019-09-24-openshift-3-Minishift-Windows-10-PRO-laptop.md
+title: 019-09-24-openshift-3-Minishift.md
 ---
 
 
@@ -74,4 +74,4 @@ To login as administrator:
 
 -- Exporting of OpenShift images is occuring in background process with pid 10376.
 PS C:\Windows\system32>
-```   
+```
