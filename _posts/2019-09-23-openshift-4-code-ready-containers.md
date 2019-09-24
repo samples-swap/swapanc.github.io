@@ -42,7 +42,7 @@ INFO These credentials can also be used to access the OpenShift web console at h
 c.testing
 ```
 ### Go to the Openshift console
-[https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)   
+[https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing){:target="_blank"}   
 
 ***see below if you get any errors***   
 
