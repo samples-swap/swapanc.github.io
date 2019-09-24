@@ -8,7 +8,7 @@ make sure your machine is multi core and has at last 16gb of ram.
 Windows 10 PRO is a requirement.
 
 ### Turn on Hypervisor
-programs and features -. enable all Hyper-v options
+programs and features ->  enable all Hyper-v options
 
 ### Download the windows version of Coderedy Containers and pull secet
 *** this requies a free Redhat account   
