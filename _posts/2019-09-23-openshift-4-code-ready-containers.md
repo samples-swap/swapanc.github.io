@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: openshift-4-code-ready-containers-windows-10-pro
+title: Openshift 4 Codeready containers Windows 10 pro laptop
 ---
 ## Openshift on your Windows 10 pro machine
 make sure your machine is multi core and has at last 16gb of ram.
@@ -16,5 +16,3 @@ programs and features ->  enable all Hyper-v options
 
 ### set a local path to the location of crc.exe
 ![set local path](https://user-images.githubusercontent.com/10190444/65509159-d23ead00-de9f-11e9-924e-0387be562ac3.png)
-
-
