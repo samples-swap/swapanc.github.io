@@ -14,6 +14,9 @@ programs and features ->  enable all Hyper-v options
 *** this requies a free Redhat account   
 [Codeready Containers](https://cloud.redhat.com/openshift/install/crc/installer-provisioned?intcmp=7013a000002CtetAAC) 
 
+### set a local path to the location of crc.exe
+<img align="left" width="100" height="100" src="https://user-images.githubusercontent.com/10190444/65509159-d23ead00-de9f-11e9-924e-0387be562ac3.png">
 
+![set local path](https://user-images.githubusercontent.com/10190444/65509159-d23ead00-de9f-11e9-924e-0387be562ac3.png)
 
 
