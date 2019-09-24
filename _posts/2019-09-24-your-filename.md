@@ -62,4 +62,10 @@ example: ```2019-09-24-your-filename```
 	* Copy the generated image link into your prose.io blog post
     ![image](https://user-images.githubusercontent.com/10190444/65532450-d1227580-dec9-11e9-8f3d-d8c9fde6afde.png)   
    
-* Commit your changes to Github
+* Commit and publish your changes to Github
+	* clicking on 'Unpublished' should set the page to 'Published' 
+	![image](https://user-images.githubusercontent.com/10190444/65533226-3cb91280-decb-11e9-9f17-afb98dfc4c99.png)   
+   
+	![image](https://user-images.githubusercontent.com/10190444/65533024-e51aa700-deca-11e9-8902-a8f48b0f8b7b.png)   
+
+	
