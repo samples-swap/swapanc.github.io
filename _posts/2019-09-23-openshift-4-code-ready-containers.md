@@ -14,7 +14,7 @@ Prepare your laptop/desktop for Openshift.
 see ***Disable wireless network adapter*** below
 
 ### Turn on Hypervisor
-```control panel --> Programs --> Turn Windows features on or off```   
+```control panel -> Programs -> Turn Windows features on or off```   
 Enable all Hyper-v options.   
 ![image](https://user-images.githubusercontent.com/10190444/65516620-50ef1680-deaf-11e9-8922-9eba64bf4923.png)   
 
