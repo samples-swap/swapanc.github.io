@@ -3,7 +3,7 @@ layout: post
 published: false
 title: 019-09-24-openshift-3-Minishift.md
 ---
-
+## Openshift 3.* on your Windows 10 pro machine
 
 Windows 10 pro laptopPre-requisites:
 1. Windows 10 Pro   
