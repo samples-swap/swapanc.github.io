@@ -9,27 +9,27 @@ title: Easy Blogging With Github Pages
    
 * Logged into your github.com account, Fork the beautiful-jekkyl github repo
 Go to:   
-[https://github.com/daattali/beautiful-jekyll](https://github.com/daattali/beautiful-jekyll)   
+   [https://github.com/daattali/beautiful-jekyll](https://github.com/daattali/beautiful-jekyll)   
    
 * Fork the beautiful-jekyll repo   
-![image](https://user-images.githubusercontent.com/10190444/65529769-bbf71800-dec4-11e9-897a-942e92b8ef47.png)    
+   ![image](https://user-images.githubusercontent.com/10190444/65529769-bbf71800-dec4-11e9-897a-942e92b8ef47.png)    
  
 * change the name of the forked beautiful-jekyll repo to your github account name + github.io   
-```
-yourgithubacct.github.io
-```   
-example:      
-![image](https://user-images.githubusercontent.com/10190444/65529941-14c6b080-dec5-11e9-8a8b-6c1096fe71f3.png)   
+   ```
+   yourgithubacct.github.io
+   ```   
+   example:      
+   ![image](https://user-images.githubusercontent.com/10190444/65529941-14c6b080-dec5-11e9-8a8b-6c1096fe71f3.png)   
    
 * Edit the title _config.yaml file and commit the change
-![image](https://user-images.githubusercontent.com/10190444/65530285-a504f580-dec5-11e9-8345-8abc419ad82d.png)   
+  ![image](https://user-images.githubusercontent.com/10190444/65530285-a504f580-dec5-11e9-8345-8abc419ad82d.png)   
    
 * Go to your Githubpages blog page   
-```
-https\://yourgithubacct.github.io
-```  
-example:   
-[https://swapanc.github.io/](https://swapanc.github.io/)   
+  ```
+  https\://yourgithubacct.github.io
+  ```  
+  example:   
+  [https://swapanc.github.io/](https://swapanc.github.io/)   
    
 ## Create blog posts with prose.io
 * Go to [https://prose.io](https://prose.io) and authorize on Github.
