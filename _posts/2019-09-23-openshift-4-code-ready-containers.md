@@ -11,7 +11,7 @@ Windows 10 PRO is a requirement.
 Prepare your laptop/desktop for Openshift.   
 
 ### Connect to an Ethernet connection and disable your wireless network card
-***see below***   
+[Disable wireless network adapter](disable-wireless-adapter)  
 
 ### Turn on Hypervisor
 ```control panel --> Programs --> Turn Windows features on or off```   
