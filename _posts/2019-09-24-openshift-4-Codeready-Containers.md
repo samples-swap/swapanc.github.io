@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: Openshift 4 Codeready containers Windows 10 pro laptop
+title: Openshift 4 Codeready containers Windows laptop
 ---
 ## Openshift on your Windows 10 pro machine
 Make sure your machine is multi core and has at last 16gb of ram.

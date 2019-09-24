@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: 019-09-23-openshift-3-Minishift.md
+title: Openshift 3 Minishift Windows laptop
 ---
 ## Openshift 3.* on your Windows 10 pro machine
 
