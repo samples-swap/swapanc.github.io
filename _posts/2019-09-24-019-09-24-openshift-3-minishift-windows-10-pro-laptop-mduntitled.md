@@ -14,7 +14,7 @@ Windows 10 pro laptopPre-requisites:
 High Level oveview:   
 1. Verify your running Windows 10 PRO or Upgrade windows 10 Home to windows 10 PRO:   
    * search for `System` and in the search window.            
-    ![System Information](/openshift-learning/assets/img/system-information-search.png)      
+    ![System Information](img/system-information-search.png)      
 
     ![Windows 10 Pro Verification](/openshift-learning/assets/img/windows_10_pro_verification.png)         
    
