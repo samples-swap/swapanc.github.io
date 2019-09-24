@@ -22,7 +22,7 @@ see ***Disable wireless network adapter*** below
    
 * Add your id to the HyperVisor Admnistrators Group via PowerShell
      * run powershell as admninistrator   
-     ![Run Powershell as administrator](![image](https://user-images.githubusercontent.com/10190444/65521154-c1e5fc80-deb6-11e9-8d68-78b3b5555ff5.png)       
+     ![Run Powershell as administrator](![image](https://user-images.githubusercontent.com/10190444/65486312-1ca93500-de72-11e9-9dab-349f57cfd639.png)       
      * Via Powershell add yourself to the Hyperv administrators group:   
      ```
      ([adsi]”WinNT://./Hyper-V Administrators,group”).Add(“WinNT://$env:UserDomain/$env:Username,user”)
