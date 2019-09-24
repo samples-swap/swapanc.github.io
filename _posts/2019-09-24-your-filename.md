@@ -35,9 +35,9 @@ example:
 * Go to [https://prose.io](https://prose.io) and authorize on Github.
    
 * Create a blog post with prose.io
-![image](https://user-images.githubusercontent.com/10190444/65530767-8bb07900-dec6-11e9-9d1c-921adc8d93c2.png)   
+	![image](https://user-images.githubusercontent.com/10190444/65530767-8bb07900-dec6-11e9-9d1c-921adc8d93c2.png)   
    
-![image](https://user-images.githubusercontent.com/10190444/65530944-e3e77b00-dec6-11e9-9fd1-24e06c4dd485.png)   
+	![image](https://user-images.githubusercontent.com/10190444/65530944-e3e77b00-dec6-11e9-9fd1-24e06c4dd485.png)   
    
 * Filename should be in the following format   
   ```YYYY-MM-DD-your-blog-post```   
