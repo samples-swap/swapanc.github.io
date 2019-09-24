@@ -65,15 +65,16 @@ crc oc-env
 oc login -u developer -p developer https://api.crc.testing:6443
 ```   
  
+### Login as Kubeadmin
 * find your openshift kubeadmin password
 In a cmd prompt run:
 ```bat
 type %userprofile%\.crc\cache\crc_hyperv_4.1.14\kubeadmin-password
-BMLkR-NjA28-v7exC-8bwAk
 ```   
    
 * Login as kubeadmin to Openshfit
-Set your env as noted above if you havent done so already.    
+Set your env as noted above if you havent done so already.
+use the password as noted above
 ```powershell
 oc login -u kubeadmin -p BMLkR-NjA28-v7exC-8bwAk https://api.crc.testing:6443
 ```   
