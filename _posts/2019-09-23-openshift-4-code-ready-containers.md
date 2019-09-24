@@ -1,8 +1,19 @@
 ---
 layout: post
 published: false
-title: openshift-4-code-ready-containers
+title: openshift-4-code-ready-containers-windows-10-pro
 ---
-## A New Post
+## Openshift on your Windows 10 pro machine
+make sure your machine is multi core and has at last 16gb of ram.
+Windows 10 PRO is a requirement.
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+### Turn on Hyper-v
+programs and features -. enable all Hyper-v options
+
+### Download the windows version of Coderedy Containers and pull secet
+* this requies a free Redhat account 
+[https://cloud.redhat.com/openshift/install/crc/installer-provisioned?intcmp=7013a000002CtetAAC](Codeready Containers)
+
+
+
+
