@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: openshift-4-code-ready-containers-windows-10-pro
 ---
 ## Openshift on your Windows 10 pro machine
