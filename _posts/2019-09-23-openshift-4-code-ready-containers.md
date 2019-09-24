@@ -18,19 +18,34 @@ programs and features ->  enable all Hyper-v options
 ![set local path](https://user-images.githubusercontent.com/10190444/65509159-d23ead00-de9f-11e9-924e-0387be562ac3.png)
 
 ### start Openshift
-open a cmd prompt   
+open a cmd prompt and setup your environment 
 ```bash
 crc setup
+```   
+Start Openshift
+```bash
 crc start
 ```   
-
+Note your login info:
+```bash
+INFO To access the cluster, first set up your environment by following 'crc oc-env' instructions
+INFO Then you can access it by running 'oc login -u developer -p developer https://api.crc.testing:6443'
+INFO To login as an admin, username is 'kubeadmin' and password is BMLkR-NjA28-v7exC-8bwAk
+INFO
+INFO These credentials can also be used to access the OpenShift web console at https://console-openshift-console.apps-cr
+c.testing
+```
 ### Go to the Openshift console
 [https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)   
 
 ***see below if you get any errors***   
 
 ### fix windows 10 Pro bug if you get an error on crc start
-```dial tcp: lookup api.crc.testing```  
+```bash
+ERRO Error occurred: Error approving the node csr Not able to get csr names (exit status 1 : Unable to connect to the se
+rver: dial tcp 172.18.7.77:6443: connectex: A connection attempt failed because the connected party did not properly res
+pond after a period of time, or established connection failed because connected host has failed to respond.
+```  
 This is related to a bug with how Hyper-v on windows handles DHCP for virtual machines   
  
 
