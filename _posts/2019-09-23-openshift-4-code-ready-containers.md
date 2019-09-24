@@ -7,6 +7,12 @@ title: Openshift 4 Codeready containers Windows 10 pro laptop
 make sure your machine is multi core and has at last 16gb of ram.
 Windows 10 PRO is a requirement.
 
+### Prepare your machine
+prepare your laptop/desktop for Openshift.   
+
+### Connect to an Ethernet connection and disable your wireless network card
+***see below***   
+
 ### Turn on Hypervisor
 programs and features ->  enable all Hyper-v options
 
@@ -39,8 +45,15 @@ c.testing
 [https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)   
 
 ***see below if you get any errors***   
+
 ### disable wireless network adapter
-i've had issues where the Hyper-v virtual switch doesnt work if it uses the wirless adapter for the virtual ethernet card
+i've had issues where the Hyper-v virtual switch doesnt work if it uses the wirless adapter for the virtual ethernet card.   
+I've had to disable the wireless adapter so that Hyper-v chooses the Ethernet adapter for Default Switch.      
+* go to Control Panel --> Network and Internet --> Network Connections   
+![image](https://user-images.githubusercontent.com/10190444/65515072-94945100-deac-11e9-80d3-efdb4a4a73d2.png)   
+
+* open the Hyper-v manager and verify that the Default switch is using the Ethernet adapter   
+![image](https://user-images.githubusercontent.com/10190444/65515299-0a98b800-dead-11e9-857f-6e95eabfc7c3.png)   
 
 ### fix windows 10 Pro bug if you get an error on crc start
 ```bash
@@ -50,7 +63,6 @@ pond after a period of time, or established connection failed because connected 
 ```  
 This is related to a bug with how Hyper-v on windows handles DHCP for virtual machines   
  
-
 * Open a Powershell cmd prompt with admin priviliges
 ![image](https://user-images.githubusercontent.com/10190444/65512344-05386f00-dea7-11e9-9e92-6b69f02376d6.png)   
 
@@ -70,4 +82,3 @@ This is related to a bug with how Hyper-v on windows handles DHCP for virtual ma
 
 * start Codeready containers again
 ```crc start```
-
