@@ -16,7 +16,7 @@ High Level oveview:
    * search for `System` and in the search window.            
     ![System Information](../img/system-information-search.png)      
 
-    ![Windows 10 Pro Verification](/openshift-learning/assets/img/windows_10_pro_verification.png)         
+    ![Windows 10 Pro Verification](../img/windows_10_pro_verification.png)         
    
 2. Install and configure HyperV  on Windows 10 Pro
    * Turn on HyperV on Windows 10 Pro
