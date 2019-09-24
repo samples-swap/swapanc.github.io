@@ -14,7 +14,9 @@ prepare your laptop/desktop for Openshift.
 ***see below***   
 
 ### Turn on Hypervisor
-programs and features ->  enable all Hyper-v options
+control panel --> Programs --> Turn Windows features on or off   
+enable all Hyper-v options   
+![image](https://user-images.githubusercontent.com/10190444/65516620-50ef1680-deaf-11e9-8922-9eba64bf4923.png)   
 
 ### Download the windows version of Coderedy Containers and pull secet
 *** this requies a free Redhat account   
