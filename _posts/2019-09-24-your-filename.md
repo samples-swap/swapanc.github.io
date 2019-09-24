@@ -1,7 +1,7 @@
 ---
 layout: post
-published: false
-title: Untitled
+published: true
+title: Easy Blogging With Github Pages
 ---
 ## Create Githubpage free blog site
 * Create a free github.com account if you dont have one already.   
@@ -68,4 +68,10 @@ example: ```2019-09-24-your-filename```
    
 	![image](https://user-images.githubusercontent.com/10190444/65533024-e51aa700-deca-11e9-8902-a8f48b0f8b7b.png)   
 
-	
+* View your newly created site and published blog post
+	* Go to:
+	```
+	yourgithubacct.github.io
+	```  
+	Example:   
+    [https://swapan.github.io](https://swapan.github.io) 
