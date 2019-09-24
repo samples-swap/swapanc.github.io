@@ -37,7 +37,7 @@ This is related to a bug with how Hyper-v on windows handles DHCP for virtual ma
 * Open a Powershell cmd prompt with admin priviliges
 ![image](https://user-images.githubusercontent.com/10190444/65512344-05386f00-dea7-11e9-9e92-6b69f02376d6.png)   
 
-* Get the IP address of your Openshift Hyper-v VM
+* Get the IP address of your Openshift Hyper-v VM   
 ```get-vm -Name crc | Select -ExpandProperty Networkadapters```
 
 * Open Notepad with admin priviliges
