@@ -3,6 +3,12 @@ layout: post
 published: true
 title: Openshift lab windows 10 pro laptop
 ---
+---
+layout:             post
+title:              "Openshift lab windows 10 pro laptop"
+date:               2019-09-21 00:00:00 +0000
+---
+
 Here is what i did to buy a very capable laptop and upgrade it to a very powerful laptop with SSD and 16GB dof DDR3 RAM. **Note that this will not age well, so if you're looking at using this, I would only consider this for 2019, beyond that this probably will not be relevant.**   
    
 ***warning: The instructions I provide are very specific and are provided as-is. I bought a new laptop, the upgraded as noted below***   
