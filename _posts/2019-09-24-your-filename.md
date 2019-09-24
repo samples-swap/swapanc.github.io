@@ -47,9 +47,9 @@ example:
 	* sample markdown:   
 	[sample markdown](https://raw.githubusercontent.com/swapanc/swapanc.github.io/master/_posts/2019-09-24-openshift-4-Codeready-Containers.md)   
 	* HTML page for markdown:   
-	[sampe html](https://raw.githubusercontent.com/swapanc/swapanc.github.io/master/_posts/2019-09-24-openshift-4-Codeready-Containers.md)  
+	[sampe html](https://raw.githubusercontent.com/swapanc/swapanc.github.io/master/_posts/2019-09-24-openshift-4-Codeready-Containers.md)   
    
-* Preview your blogpost
+* Preview your blogpost   
 	* Toggle back and forth between edit and preview modes by clicking either the pencil icon or the eye icon.   
 	![image](https://user-images.githubusercontent.com/10190444/65531713-818f7a00-dec8-11e9-83ce-be476e2309a8.png)    
    
