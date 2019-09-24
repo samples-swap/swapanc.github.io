@@ -82,5 +82,6 @@ pond after a period of time, or established connection failed because connected 
 172.18.7.77  console-openshift-console.apps-crc.testing
 ```   
 
-* start Codeready containers again
-```crc start```
+* start Codeready containers again and navigate to the Openshift web console
+```crc start```   
+[https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)
