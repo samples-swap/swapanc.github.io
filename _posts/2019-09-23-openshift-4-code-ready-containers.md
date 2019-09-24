@@ -11,7 +11,7 @@ Windows 10 PRO is a requirement.
 programs and features -. enable all Hyper-v options
 
 ### Download the windows version of Coderedy Containers and pull secet
-* this requies a free Redhat account   
+*** this requies a free Redhat account   
 [Codeready Containers](https://cloud.redhat.com/openshift/install/crc/installer-provisioned?intcmp=7013a000002CtetAAC) 
 
 
