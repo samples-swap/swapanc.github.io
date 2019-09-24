@@ -1,7 +1,7 @@
 ---
 layout: post
 published: false
-title: 019-09-24-openshift-3-Minishift-Windows-10-PRO-laptop.md
+title: 019-09-24-openshift-3-Minishift.md
 ---
 
 
