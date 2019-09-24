@@ -11,7 +11,7 @@ Windows 10 PRO is a requirement.
 Prepare your laptop/desktop for Openshift.   
 
 ### Connect to an Ethernet connection and disable your wireless network card
-[Disable wireless network adapter](disable-wireless-adapter)  
+[Disable wireless network adapter](#Disable-wireless-network-adapter)
 
 ### Turn on Hypervisor
 ```control panel --> Programs --> Turn Windows features on or off```   
@@ -47,7 +47,8 @@ c.testing
 [https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)
 
 ***See below if you get any errors***   
-### [Disable wireless network adapter](#disable-wireless-adapter)   
+[disable-wireless-adapter](#Disable-wireless-network-adapter)
+## Disable-wireless-network-adapter
 I have had issues where the Hyper-v virtual switch doesnt work if it uses the wirless adapter for the virtual ethernet card.   
 I have had to disable the wireless adapter so that Hyper-v chooses the Ethernet adapter for Default Switch.      
 * Go to Control Panel --> Network and Internet --> Network Connections   
