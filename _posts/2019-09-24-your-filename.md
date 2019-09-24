@@ -24,8 +24,12 @@ example:
 * Edit the title _config.yaml file and commit the change
 ![image](https://user-images.githubusercontent.com/10190444/65530285-a504f580-dec5-11e9-8345-8abc419ad82d.png)   
    
-* Go to your Githubpages blog page
-[https://swapanc.github.io/](https://swapanc.github.io/)
+* Go to your Githubpages blog page   
+```
+https://yourgithubacct.github.io
+```  
+example:   
+[https://swapanc.github.io/](https://swapanc.github.io/)   
    
 ## Create blog posts with prose.io
 * Go to [https://prose.io](https://prose.io) and authorize on Github.
@@ -56,7 +60,7 @@ example: ```2019-09-24-your-filename```
 	* take a screen shot by holding the following keys together   
 	```windows key + shift + s```   
    
-	* In the comment section of your open issue right click and paste the screen shot   
+	* In the comment section of your open issue right click and paste the screen shot      
    	   ![image](https://user-images.githubusercontent.com/10190444/65532280-8c96da00-dec9-11e9-87cc-730630a0666e.png)   
        
 	* Copy the generated image link into your prose.io blog post
