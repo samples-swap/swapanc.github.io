@@ -7,20 +7,30 @@ title: Openshift 4 Codeready containers Windows 10 pro laptop
 Make sure your machine is multi core and has at last 16gb of ram.
 Windows 10 PRO is a requirement.
 
+
+     
 ### Prepare your machine
 Prepare your laptop/desktop for Openshift.   
 
-### Connect to an Ethernet connection and disable your wireless network card
+* Connect to an Ethernet connection and disable your wireless network card
 see ***Disable wireless network adapter*** below
 
-### Turn on Hypervisor
-control panel -> Programs -> Turn Windows features on or off   
+* Turn on Hypervisor
+	* control panel -> Programs -> Turn Windows features on or off   
+	* Enable all Hyper-v options.   
+	![image](https://user-images.githubusercontent.com/10190444/65516620-50ef1680-deaf-11e9-8922-9eba64bf4923.png)
    
-Enable all Hyper-v options.   
-![image](https://user-images.githubusercontent.com/10190444/65516620-50ef1680-deaf-11e9-8922-9eba64bf4923.png)   
-   
-### Download the windows version of Coderedy Containers and pull secet
-*** This requies a free Redhat account, signup for one if you dont already have one.   
+* Add your id to the HyperVisor Admnistrators Group via PowerShell
+     * run powershell as admninistrator   
+     ![Run Powershell as administrator](![image](https://user-images.githubusercontent.com/10190444/65521154-c1e5fc80-deb6-11e9-8d68-78b3b5555ff5.png)       
+     * Via Powershell add yourself to the Hyperv administrators group:   
+     ```
+     ([adsi]”WinNT://./Hyper-V Administrators,group”).Add(“WinNT://$env:UserDomain/$env:Username,user”)
+     ```   
+    
+### Get Codeready containers and pull secret
+*** This requies a free Redhat account, signup for one if you dont already have one.  
+*** Make sure you copy the pull secret as well.   
 [Codeready Containers](https://cloud.redhat.com/openshift/install/crc/installer-provisioned?intcmp=7013a000002CtetAAC)    
    
 ### Set a local path to the location of crc.exe
