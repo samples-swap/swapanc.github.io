@@ -34,6 +34,7 @@ crc setup
 Start Openshift
 ```bash
 crc start
+#paste the pull secret when requested
 ```   
 Note your login info:
 ```bash
