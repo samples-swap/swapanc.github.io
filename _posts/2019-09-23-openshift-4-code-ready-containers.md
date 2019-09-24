@@ -55,14 +55,14 @@ I've had to disable the wireless adapter so that Hyper-v chooses the Ethernet ad
 * open the Hyper-v manager and verify that the Default switch is using the Ethernet adapter   
 ![image](https://user-images.githubusercontent.com/10190444/65515299-0a98b800-dead-11e9-857f-6e95eabfc7c3.png)   
 
-### fix windows 10 Pro bug if you get an error on crc start
+### fix windows 10 Pro bug if you get an error on crc start   
+This is related to a bug with how Hyper-v on windows handles DHCP for virtual machines.   
 ```bash
 ERRO Error occurred: Error approving the node csr Not able to get csr names (exit status 1 : Unable to connect to the se
 rver: dial tcp 172.18.7.77:6443: connectex: A connection attempt failed because the connected party did not properly res
 pond after a period of time, or established connection failed because connected host has failed to respond.
 ```  
-This is related to a bug with how Hyper-v on windows handles DHCP for virtual machines   
- 
+   
 * Open a Powershell cmd prompt with admin priviliges
 ![image](https://user-images.githubusercontent.com/10190444/65512344-05386f00-dea7-11e9-9e92-6b69f02376d6.png)   
 
