@@ -3,7 +3,7 @@ layout: post
 published: true
 title: Openshift 4 Codeready containers Windows 10 pro laptop
 ---
-## Openshift on your Windows 10 pro machine
+# Openshift on your Windows 10 pro machine
 Make sure your machine is multi core and has at last 16gb of ram.
 Windows 10 PRO is a requirement.
 
@@ -48,8 +48,14 @@ c.testing
 
 ### Go to the Openshift console
 [https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)
-
-## See below if you get any errors
+   
+### Use the Openshift OC command line interface
+In a cmd prompt set your environment   
+```powershell
+crc oc-env
+```   
+   
+# See below if you get any errors
 
 ### Disable wireless network adapter
 I have had issues where the Hyper-v virtual switch doesnt work if it uses the wirless adapter for the virtual ethernet card.   
