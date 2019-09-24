@@ -25,12 +25,14 @@ crc start
 ```   
 
 ### Go to the Openshift console
+[https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)   
 
 ***see below if you get any errors***   
 
 ### fix windows 10 Pro bug if you get an error on crc start
+```dial tcp: lookup api.crc.testing```  
 This is related to a bug with how Hyper-v on windows handles DHCP for virtual machines   
-```dial tcp: lookup api.crc.testing```   
+ 
 
 * Open a Powershell cmd prompt with admin priviliges
 ![image](https://user-images.githubusercontent.com/10190444/65512344-05386f00-dea7-11e9-9e92-6b69f02376d6.png)   
