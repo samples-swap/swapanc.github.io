@@ -4,28 +4,28 @@ published: true
 title: Openshift 4 Codeready containers Windows 10 pro laptop
 ---
 ## Openshift on your Windows 10 pro machine
-make sure your machine is multi core and has at last 16gb of ram.
+Make sure your machine is multi core and has at last 16gb of ram.
 Windows 10 PRO is a requirement.
 
 ### Prepare your machine
-prepare your laptop/desktop for Openshift.   
+Prepare your laptop/desktop for Openshift.   
 
 ### Connect to an Ethernet connection and disable your wireless network card
 ***see below***   
 
 ### Turn on Hypervisor
-control panel --> Programs --> Turn Windows features on or off   
-enable all Hyper-v options   
+```control panel --> Programs --> Turn Windows features on or off```   
+Enable all Hyper-v options.   
 ![image](https://user-images.githubusercontent.com/10190444/65516620-50ef1680-deaf-11e9-8922-9eba64bf4923.png)   
 
 ### Download the windows version of Coderedy Containers and pull secet
-*** this requies a free Redhat account   
-[Codeready Containers](https://cloud.redhat.com/openshift/install/crc/installer-provisioned?intcmp=7013a000002CtetAAC) 
+*** This requies a free Redhat account, signup for one if you dont already have one.   
+[Codeready Containers](https://cloud.redhat.com/openshift/install/crc/installer-provisioned?intcmp=7013a000002CtetAAC)    
 
-### set a local path to the location of crc.exe
+### Set a local path to the location of crc.exe
 ![set local path](https://user-images.githubusercontent.com/10190444/65509159-d23ead00-de9f-11e9-924e-0387be562ac3.png)
 
-### start Openshift
+### Start Openshift
 open a cmd prompt and setup your environment 
 ```bash
 crc setup
@@ -46,18 +46,18 @@ c.testing
 ### Go to the Openshift console
 [https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)
 
-***see below if you get any errors***   
+***See below if you get any errors***   
 
-### disable wireless network adapter
-i've had issues where the Hyper-v virtual switch doesnt work if it uses the wirless adapter for the virtual ethernet card.   
-I've had to disable the wireless adapter so that Hyper-v chooses the Ethernet adapter for Default Switch.      
-* go to Control Panel --> Network and Internet --> Network Connections   
+### Disable wireless network adapter
+I have had issues where the Hyper-v virtual switch doesnt work if it uses the wirless adapter for the virtual ethernet card.   
+I have had to disable the wireless adapter so that Hyper-v chooses the Ethernet adapter for Default Switch.      
+* Go to Control Panel --> Network and Internet --> Network Connections   
 ![image](https://user-images.githubusercontent.com/10190444/65515072-94945100-deac-11e9-80d3-efdb4a4a73d2.png)   
 
-* open the Hyper-v manager and verify that the Default switch is using the Ethernet adapter   
+* Open the Hyper-v manager and verify that the Default switch is using the Ethernet adapter   
 ![image](https://user-images.githubusercontent.com/10190444/65515299-0a98b800-dead-11e9-857f-6e95eabfc7c3.png)   
 
-### fix windows 10 Pro bug if you get an error on crc start   
+### Fix windows 10 Pro bug if you get an error on crc start   
 This is related to a bug with how Hyper-v on windows handles DHCP for virtual machines.   
 ```bash
 ERRO Error occurred: Error approving the node csr Not able to get csr names (exit status 1 : Unable to connect to the se
@@ -82,6 +82,6 @@ pond after a period of time, or established connection failed because connected 
 172.18.7.77  console-openshift-console.apps-crc.testing
 ```   
 
-* start Codeready containers again and navigate to the Openshift web console
+* Start Codeready containers again and navigate to the Openshift web console
 ```crc start```   
 [https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)
