@@ -43,7 +43,7 @@ This is related to a bug with how Hyper-v on windows handles DHCP for virtual ma
 * Open Notepad with admin priviliges
 ![image](https://user-images.githubusercontent.com/10190444/65511982-60b62d00-dea6-11e9-8770-d569f8c7c30f.png)   
 
-* Open the hosts file in C:\Windows\System32\drivers\etc with DNS entries for Openshift
+* Open the hosts file in C:\Windows\System32\drivers\etc with ip address entries for your Openshift VM
 ```bash
 # replace you VM ip address with the address below and save the file
 172.18.7.77  api.crc.testing
