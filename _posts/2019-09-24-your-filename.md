@@ -26,7 +26,7 @@ example:
    
 * Go to your Githubpages blog page   
 ```
-https://yourgithubacct.github.io
+https:\/\/yourgithubacct.github.io
 ```  
 example:   
 [https://swapanc.github.io/](https://swapanc.github.io/)   
