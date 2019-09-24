@@ -39,15 +39,15 @@ example:
    
 ![image](https://user-images.githubusercontent.com/10190444/65530944-e3e77b00-dec6-11e9-9fd1-24e06c4dd485.png)   
    
-Filename should be in the following format   
-```YYYY-MM-DD-your-blog-post```   
-example: ```2019-09-24-your-filename```
+* Filename should be in the following format   
+  ```YYYY-MM-DD-your-blog-post```   
+  example: ```2019-09-24-your-filename```
    
-* Use simple Markdown to write your blog post
-	* sample markdown:
+* Use simple Markdown to write your blog post   
+	* sample markdown:   
 	[sample markdown](https://raw.githubusercontent.com/swapanc/swapanc.github.io/master/_posts/2019-09-24-openshift-4-Codeready-Containers.md)   
 	* HTML page for markdown:   
-	[sampe html](https://raw.githubusercontent.com/swapanc/swapanc.github.io/master/_posts/2019-09-24-openshift-4-Codeready-Containers.md) 
+	[sampe html](https://raw.githubusercontent.com/swapanc/swapanc.github.io/master/_posts/2019-09-24-openshift-4-Codeready-Containers.md)  
    
 * Preview your blogpost
 	* Toggle back and forth between edit and preview modes by clicking either the pencil icon or the eye icon.   
