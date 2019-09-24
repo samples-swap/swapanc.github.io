@@ -51,7 +51,7 @@ Go to:
    
 * Preview your blogpost   
 	* Toggle back and forth between edit and preview modes by clicking either the pencil icon or the eye icon.   
-	![image](https://user-images.githubusercontent.com/10190444/65531713-818f7a00-dec8-11e9-83ce-be476e2309a8.png)    
+	![image](https://user-images.githubusercontent.com/10190444/65531713-818f7a00-dec8-11e9-83ce-be476e2309a8.png)   
    
 * Easily add screen shots to your blog
 	* Go to your github account and navite to your blog repo, then create an issue
