@@ -50,11 +50,35 @@ c.testing
 [https://console-openshift-console.apps-crc.testing](https://console-openshift-console.apps-crc.testing)
    
 ### Use the Openshift OC command line interface
-In a cmd prompt set your environment   
+* In a cmd prompt set your environment   
 ```powershell
 crc oc-env
 ```   
    
+* Run the command on the last line   
+```
+@FOR /f "tokens=*" %i IN ('crc oc-env') DO @call %i
+```   
+   
+* login to Openshift with the default developer id and password
+```powershell
+oc login -u developer -p developer https://api.crc.testing:6443
+```   
+ 
+* find your openshift kubeadmin password
+In a cmd prompt run:
+```bat
+type %userprofile%\.crc\cache\crc_hyperv_4.1.14\kubeadmin-password
+BMLkR-NjA28-v7exC-8bwAk
+```   
+   
+* Login as kubeadmin to Openshfit
+Set your env as noted above if you havent done so already.    
+```powershell
+oc login -u kubeadmin -p BMLkR-NjA28-v7exC-8bwAk https://api.crc.testing:6443
+```   
+   
+In Windows explorer navigate to %
 # See below if you get any errors
 
 ### Disable wireless network adapter
