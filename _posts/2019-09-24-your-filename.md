@@ -8,10 +8,10 @@ title: Easy Blogging With Github Pages
 [https://github.com](https://github.com)   
    
 * Logged into your github.com account, Fork the beautiful-jekkyl github repo
-Go to:
+Go to:   
 [https://github.com/daattali/beautiful-jekyll](https://github.com/daattali/beautiful-jekyll)   
    
-* Fork the beautiful-jekyll repo
+* Fork the beautiful-jekyll repo   
 ![image](https://user-images.githubusercontent.com/10190444/65529769-bbf71800-dec4-11e9-897a-942e92b8ef47.png)    
  
 * change the name of the forked beautiful-jekyll repo to your github account name + github.io   
