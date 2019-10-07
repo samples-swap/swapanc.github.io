@@ -1,7 +1,7 @@
 ---
 layout: post
 published: false
-title: 2019-10-07-podman-buildah-skopeo-containers-without-docker
+title: podman-buildah-skopeo-containers-without-docker
 ---
 ## A New Post
 
