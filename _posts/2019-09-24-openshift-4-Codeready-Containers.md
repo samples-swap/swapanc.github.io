@@ -22,8 +22,8 @@ see ***Disable wireless network adapter*** below
      * run powershell as admninistrator   
      ![image](https://user-images.githubusercontent.com/10190444/65521387-2739ed80-deb7-11e9-8a51-e5756e708d96.png)        
      * Via Powershell add yourself to the Hyperv administrators group:   
-     ```
-     ([adsi]”WinNT://./Hyper-V Administrators,group”).Add(“WinNT://$env:UserDomain/$env:Username,user”)
+     ```bash
+     ([adsi]"WinNT://./Hyper-V Administrators,group").Add("WinNT://$env:UserDomain/$env:Username,user")
      ```   
     
 ### Get Codeready containers and pull secret
