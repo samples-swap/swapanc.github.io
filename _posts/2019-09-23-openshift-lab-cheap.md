@@ -2,7 +2,8 @@
 layout: post
 published: true
 title: Openshift lab windows 10 pro laptop
----   
+---
+   
 
 Here is what i did to buy a very capable laptop and upgrade it to a very powerful laptop with SSD and 16GB dof DDR3 RAM. **Note that this will not age well, so if you're looking at using this, I would only consider this for 2019, beyond that this probably will not be relevant.**   
    
@@ -17,9 +18,8 @@ What do you get with this?
 2. you get an easy to do upgrade as Acer makes this particular laptop easy to upgrade.   
 2. The slow 1TB drive that comes with you lapto is reused as a storage and archive area.   
 3. you get bootup in less than 10 seconds.   
-4. you can minishift on this laptop.   
-5. you get a laptop with no bloatware.   
-  * you're installing from the Windows 10 Disk without any bloatware.   
+4. you can run minishift/Codeready containers on this laptop.   
+5. You're installing from the Windows 10 Disk without any bloatware.   
 6. You get a USB WIndows 10 pro install disk (with license).   
 
 These are the following items i purchased, all from Amazon with free shipping.   
