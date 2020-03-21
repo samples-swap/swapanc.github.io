@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: katacoda-openshift-springboot-mysql-test
+date: '2020-03-21'
 ---
 # Katacoda
      
@@ -62,7 +63,4 @@ curl http://swapapp-myproject.192.168.1.204.nip.io/demo/all
 {"name":"Solaris 11","lastaudit":1502582400000,"id":3},      
 {"name":"SpringBootMysqlTest","lastaudit":1548892800000,"id":4}      
 ]   
-```   
-
-
-
+```
