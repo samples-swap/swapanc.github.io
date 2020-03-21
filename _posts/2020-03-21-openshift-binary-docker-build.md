@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: openshift-binary-docker-build
+date: '2020-03-21'
 ---
 Base image creation
 ====================
