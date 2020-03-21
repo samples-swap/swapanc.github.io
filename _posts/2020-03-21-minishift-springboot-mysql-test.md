@@ -1,7 +1,8 @@
 ---
 layout: post
-published: false
+published: true
 title: minishift-springboot-mysql-test
+date: '2020-03-21'
 ---
 # Minishift   
 ```bash
