@@ -3,6 +3,8 @@ layout: post
 published: false
 title: RHEL 8 on Windows info
 ---
+# notes on various things im wokring on
+
 ## get ip of running windows container
 ```
 get-vm | Where-Object {$_.State -eq 'Running'} | Select -ExpandProperty Networkadapters
@@ -43,4 +45,4 @@ if tar -zxvf $tmpdir/$driver -C $tmpdir && tar -xf
 cd $tmpdir
 ls -rtl $tmpdir
 EOF
-```   
+```
