@@ -1,7 +1,9 @@
 ---
 layout: post
-published: false
+published: true
 title: RHEL 8 on Windows info
+date: '2020-03-22'
+subtitle: notes on things im working on
 ---
 # notes on various things im wokring on
 
