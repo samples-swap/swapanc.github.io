@@ -1,8 +1,12 @@
 ---
 layout: post
 published: true
-title: katacoda-openshift-springboot-mysql-test
-date: '2020-03-21'
+title: katacoda openshift springboot mysql test
+date: 2020-03-20 03:28
+category: katacoda
+author: Swapan Chakrabarty
+tags: [openshift,minishift,codeready containers,docker,podman,katacoda]
+summary: springboot mysql on openshift with Katacoda sandbox
 ---
 # Katacoda
      

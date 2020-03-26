@@ -1,9 +1,12 @@
 ---
 layout: post
 published: true
-title: RHEL 8 on Windows info
-date: '2020-03-22'
-subtitle: notes on things im working on
+title: notes on everything im wokring o
+date: 2020-03-26 03:28
+category: notes
+author: Swapan Chakrabarty
+tags: [openshift,minishift,codeready containers,docker,podman]
+summary: notes on everything im wokring on
 ---
 # notes on various things im wokring on
 
@@ -89,3 +92,16 @@ chmod a+w ./swapanc.github.io/Gemfile.lock
 curl -k -SL "https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.39.tar.gz" | tar -xzf - -C /tmp/quickstart/jars --strip-components=1 mysql-connector-java-5.1.39/mysql-connector-java-5.1.39-bin.jar
 ```
 
+## tomcat stuff
+
+go to [https://www.javaguides.net/2018/06/apache-maven-war-plugin.html](https://www.javaguides.net/2018/06/apache-maven-war-plugin.html)
+
+Deploying applications to Tomcat
+[https://www.codejava.net/servers/tomcat/how-to-deploy-a-java-web-application-on-tomcat](https://www.codejava.net/servers/tomcat/how-to-deploy-a-java-web-application-on-tomcat)
+1. Copy the WAR file into $CATALINA_HOME\webapps directory.
+2. Copy the application’s directory from its location into $CATALINA_HOME\webapps directory.
+3. deploy the web application remotely via a web interface provided by Tomcat’s manager application.
+	[http://localhost:8080/manager](http://localhost:8080/manager)
+
+
+[https://docs.oracle.com/database/121/ADXDB/xdb11jav.htm#ADXDB4944](https://docs.oracle.com/database/121/ADXDB/xdb11jav.htm#ADXDB4944)

@@ -6,7 +6,7 @@ date: 2020-03-26 01:28
 category: kafka
 author: Swapan Chakrabarty
 tags: [kafka, docker, kafka-connect, containers, podman]
-summary: 
+summary: kafka in containers with Podman instead of Docker
 ---
 
 ## one command to create a Kafka connect image with mysql jdbc driver
