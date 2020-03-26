@@ -2,6 +2,11 @@
 layout: post
 published: true
 title: Openshift lab windows 10 pro laptop
+date: 2019-09-23 01:28
+category: openshift
+author: Swapan Chakrabarty
+tags: [openshift,lab,codeready containers]
+summary: what i did to buy a very capable laptop and upgrade it to a very powerful laptop with SSD and 16GB dof DDR3 RAM.
 ---
    
 

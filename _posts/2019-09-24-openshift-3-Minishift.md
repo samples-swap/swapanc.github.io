@@ -2,6 +2,11 @@
 layout: post
 published: true
 title: Openshift 3 Minishift Windows laptop
+date: 2019-09-24 02:28
+category: openshift
+author: Swapan Chakrabarty
+tags: [openshift,minishift,codeready containers]
+summary: Openshift 3.* on your Windows 10 pro machine
 ---
 ## Openshift 3.* on your Windows 10 pro machine
 

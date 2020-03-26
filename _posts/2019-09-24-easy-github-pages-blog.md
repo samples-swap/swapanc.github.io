@@ -2,6 +2,11 @@
 layout: post
 published: true
 title: Easy Blogging With Github Pages
+date: 2019-09-24 01:28
+category: github pages
+author: Swapan Chakrabarty
+tags: [blogging, github pages]
+summary: Create Githubpage free blog site
 ---
 ## Create Githubpage free blog site
 * Create a free github.com account if you dont have one already.   
