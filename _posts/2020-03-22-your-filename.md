@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: oracle jdbc drivers in maven central
+title: oracle-jdbc -drivers-maven-central
 date: '2020-03-22'
 subtitle: oracle jdbc drivers finally in maven central
 ---
