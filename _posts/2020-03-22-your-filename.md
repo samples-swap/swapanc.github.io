@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: ''
+title: oracle jdbc drivers in maven central
 date: '2020-03-22'
 subtitle: oracle jdbc drivers finally in maven central
 ---
@@ -37,4 +37,4 @@ finally oracle drivers are in maven central.
     <version>19.3.0.0</version>
 </dependency>   
 ```   
- ** note that db6.jar is a legacy name, xdb.jar is the new name   
+ ** note that db6.jar is a legacy name, xdb.jar is the new name
