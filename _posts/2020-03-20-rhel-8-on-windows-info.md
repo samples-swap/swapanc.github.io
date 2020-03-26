@@ -48,3 +48,44 @@ cd $tmpdir
 ls -rtl $tmpdir
 EOF
 ```
+
+## containes info
+ARM binaries in a container image will not run on POWER container hosts. Containers do not offer compatibility guarantees; only virtualization can do that.  
+
+problem extends to processor architecture, and also versions of the operating system. Try running a RHEL 8 container image on a RHEL 4 container host -- that isn't going to work.''
+
+
+Containers are just regular Linux processes that were started as child processes of a container runtime instead of by a user running commands in a shell. All Linux processes live side by side, whether they are daemons, batch jobs or user commands - the container engine, container runtime, and containers (child processes of the container runtime) are no different. All of these processes make requests to the Linux kernel for protected resources like memory, RAM, TCP sockets, etc.''
+
+With a single container host, containerized applications can be managed quite similarly to traditional applications, while gaining incremental efficiencies
+
+## podman info
+
+```bash
+podman run -it --rm --name jekyll \
+  -v ./swapanc.github.io:/srv/jekyll:rw,slave,Z \
+  -v ./bundle:/usr/local/bundle:rw,slave,Z \
+  --publish 4000:4000 \
+  docker.io/jekyll/jekyll:3.8.5 \
+  jekyll serve --drafts
+
+podman run --rm \
+ --volume="$PWD:/srv/jekyll" \
+-p 127.0.0.1:4000:4000 \
+-it jekyll/jekyll:pages \
+jekyll serve
+```
+
+## jekyll info
+
+```bash
+touch ./swapanc.github.io/Gemfile.lock
+chmod a+w ./swapanc.github.io/Gemfile.lock
+```
+
+## curl wget info
+
+```bash
+curl -k -SL "https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-java-5.1.39.tar.gz" | tar -xzf - -C /tmp/quickstart/jars --strip-components=1 mysql-connector-java-5.1.39/mysql-connector-java-5.1.39-bin.jar
+```
+

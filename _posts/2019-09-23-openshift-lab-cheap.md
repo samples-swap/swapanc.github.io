@@ -5,22 +5,33 @@ title: Openshift lab windows 10 pro laptop
 ---
    
 
-Here is what i did to buy a very capable laptop and upgrade it to a very powerful laptop with SSD and 16GB dof DDR3 RAM. **Note that this will not age well, so if you're looking at using this, I would only consider this for 2019, beyond that this probably will not be relevant.**   
-   
-***warning: The instructions I provide are very specific and are provided as-is. I bought a new laptop, the upgraded as noted below***   
+Here is what i did to buy a very capable laptop and upgrade it to a very powerful laptop with SSD and 16GB dof DDR3 RAM.
+
+**Note that this will not age well, so if you're looking at using this, I would only consider this for 2019, beyond that this probably will not be relevant.**
+
+***warning: The instructions I provide are very specific and are provided as-is. I bought a new laptop, the upgraded as noted below***
 ***if you use instructions below, you do so at your own risk***
-***DO NOT attemt this on own personal laptop with existing data***   
+***DO NOT attemt this on own personal laptop with existing data***
 **These intstructions are SPECIFICALLY for upgrading new Aspire E5-576-392H laptop** 
 
 What do you get with this?
-1. **You get a very fast SSD drive laptop with 16GB of dual channel RAM for $630 including tax and shipping**   
-  * assuming you have Amazon Prime.   
-2. you get an easy to do upgrade as Acer makes this particular laptop easy to upgrade.   
-2. The slow 1TB drive that comes with you lapto is reused as a storage and archive area.   
-3. you get bootup in less than 10 seconds.   
-4. you can run minishift/Codeready containers on this laptop.   
-5. You're installing from the Windows 10 Disk without any bloatware.   
-6. You get a USB WIndows 10 pro install disk (with license).   
+
+1. **You get a very fast SSD drive laptop with 16GB of dual channel RAM for $630 including tax and shipping**
+
+- assuming you have Amazon Prime.
+
+2. you get an easy to do upgrade as Acer makes this particular laptop easy to upgrade.
+
+3. The slow 1TB drive that comes with you lapto is reused as a storage and archive area.
+
+4. you get bootup in less than 10 seconds.
+
+5. you can run minishift/Codeready containers on this laptop.
+
+6. You're installing from the Windows 10 Disk without any 
+bloatware.
+
+7. You get a USB WIndows 10 pro install disk (with license).
 
 These are the following items i purchased, all from Amazon with free shipping.   
 prices below include tax.   
@@ -72,6 +83,7 @@ amazon link:
 7. open the cover again, and push the hard drive that you pushed out back in. 
 9. close the cover, screw in the 3 screws you removed.
 10. start the laptop and hit F2 to get to the BIOS
+
   * use the right arrow to get to the Boot menu
   * use the down arrow to select the SSD (WDS500G..) hit F6 until that drive is the first one.
   * then save and exit

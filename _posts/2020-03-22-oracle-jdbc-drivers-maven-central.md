@@ -1,13 +1,14 @@
 ---
 layout: post
 published: true
-title: oracle-jdbc -drivers-maven-central
+title: oracle-jdbc-drivers-maven-central
 date: '2020-03-22'
 subtitle: oracle jdbc drivers finally in maven central
+summary: finally oracle drivers are in maven central
 ---
 finally oracle drivers are in maven central.    
 [https://repo1.maven.org/maven2/com/oracle/database/](https://repo1.maven.org/maven2/com/oracle/database/)   
-   
+
  com.oracle.database      
  - ojdbc[N].jar   
  - ucp.jar   
