@@ -8,7 +8,7 @@ author: Swapan Chakrabarty
 tags: [openshift,minishift,codeready containers,docker,podman,katacoda]
 summary: build a base image with Openshift
 ---
-Base image creation
+## Base image creation
 ====================
 **Create a build config for  binary docker build**
 Creates build config objects. This sets up a docker build in openshift that pushes to artifactory using the openjdk image as a base.
@@ -26,7 +26,7 @@ cd $proj_folder
 oc start-build base-mule-image-build --from-dir=.
 ```
 
-App base image layered on binary base image
+## App base image layered on binary base image
 ====================
 This sets up a docker build in openshift, which uses the previously created mule base image as the base layer.  
 It pushes the final image to artifactory
