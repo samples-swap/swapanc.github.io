@@ -5,7 +5,7 @@ title: openshift shift binary image build
 date: 2020-03-20 05:28
 category: openshift
 author: Swapan Chakrabarty
-tags: [openshift,minishift,codeready containers,docker,podman,katacoda]
+tags: [openshift,minishift,codeready containers]
 summary: build a base image with Openshift
 ---
 ## Base image creation
