@@ -6,36 +6,33 @@ date: '2020-03-22'
 subtitle: 
 summary: finally oracle drivers are in maven central
 ---
-finally oracle drivers are in maven central.    
-[https://repo1.maven.org/maven2/com/oracle/database/](https://repo1.maven.org/maven2/com/oracle/database/)   
+## Base image creation
 
- com.oracle.database      
- - ojdbc[N].jar   
- - ucp.jar   
- - ojdbc[N]dms.jar      
-    
- oracle.database.jdbc.debug  
- - oraclepki.jar   
- - osdt_cert.jar   
- - osdt_core.jar   
-    
- oracle.database.ha   
- - ons.jar   
- - simplefan.jar   
-    
- oracle.database.nls
- - orai18n.jar   
-    
- oracle.database.xml
- - xdb.jar, xdb6.jar
- - xmlparserv2.jar   
-    
- sample maven dependency
- ```xml
- <dependency>
-    <groupId>com.oracle.database.jdbc</groupId>
-    <artifactId>ojdbc10</artifactId>
-    <version>19.3.0.0</version>
-</dependency>   
-```   
- ** note that db6.jar is a legacy name, xdb.jar is the new name
+====================
+**Create a build config for  binary docker build**
+Creates build config objects. This sets up a docker build in openshift that pushes to artifactory using the openjdk image as a base.
+instructions on sourcing the oc binary [oc-binary-source.md](oc-binary-source.md) 
+```bash
+oc new-build --name=base-mule-image-build --binary=true --to=openshiftdockerregistry.local.com/base-mule-image:latest --to-docker=true --strategy=docker --image-stream=bac/openjdk18:latest
+```
+**clone the base build repo**
+```bash
+git clone ssh://****.git
+```
+**cd to the cloned project folder and do a docker build and push base image to repo**
+```bash
+cd $proj_folder
+oc start-build base-mule-image-build --from-dir=.
+```
+
+## App base image layered on binary base image
+====================
+This sets up a docker build in openshift, which uses the previously created mule base image as the base layer.  
+It pushes the final image to artifactory
+**create App image build config**
+```
+oc new-build --name=app-mule-image-build --binary=true --to=openshiftdockerregistry.local.com/app-mule-image:latest --to-docker=true --strategy=docker --docker-image=openshiftdockerregistry.local.com/base-mule-image:latest
+```
+**Starts the build for the app image.  Run this in the directory with the application docker file and the application jar**
+```
+oc sta

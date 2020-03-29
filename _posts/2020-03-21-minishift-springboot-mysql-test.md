@@ -1,14 +1,12 @@
 ---
 layout: post
 published: true
-title: minishift springboot mysql test
+title: springboot mysql on openshift minishift sandbox 
 date: 2020-03-20 04:28
-category: openshift
-author: Swapan Chakrabarty
-tags: [openshift,minishift,codeready containers,docker,podman,katacoda]
+subtitle: 
 summary: springboot mysql on openshift minishift sandbox
----
-# Minishift   
+--- 
+## Minishift   
 ```bash
 mkdir apptest ;\
 cd apptest ;\
