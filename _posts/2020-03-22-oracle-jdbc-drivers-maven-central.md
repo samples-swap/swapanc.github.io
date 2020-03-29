@@ -36,6 +36,7 @@ finally oracle drivers are in maven central.
     <groupId>com.oracle.database.jdbc</groupId>
     <artifactId>ojdbc10</artifactId>
     <version>19.3.0.0</version>
-</dependency>   
-```   
- ** note that db6.jar is a legacy name, xdb.jar is the new name
+</dependency>  
+```
+
+**note that db6.jar is a legacy name, xdb.jar is the new name**
