@@ -8,7 +8,8 @@ author: Swapan Chakrabarty
 tags: [blogging, github pages]
 summary: Create Githubpage free blog site
 ---
-## Create Githubpage free blog site
+## Create Githubpage free blog site 
+
 * Create a free github.com account if you dont have one already.   
 [https://github.com](https://github.com)   
    

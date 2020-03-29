@@ -8,6 +8,7 @@ author: Swapan Chakrabarty
 tags: [openshift,minishift,codeready containers]
 summary: Openshift 3.* on your Windows 10 pro machine
 ---
+
 ## Openshift 3.* on your Windows 10 pro machine
 
 Windows 10 pro laptopPre-requisites:

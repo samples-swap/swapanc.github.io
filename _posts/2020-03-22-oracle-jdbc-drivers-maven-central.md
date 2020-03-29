@@ -6,8 +6,9 @@ date: '2020-03-22'
 subtitle: 
 summary: finally oracle drivers are in maven central
 ---
-finally oracle drivers are in maven central.    
-[https://repo1.maven.org/maven2/com/oracle/database/](https://repo1.maven.org/maven2/com/oracle/database/)   
+finally oracle drivers are in maven central.
+
+[https://repo1.maven.org/maven2/com/oracle/database/](https://repo1.maven.org/maven2/com/oracle/database/)
 
  com.oracle.database      
  - ojdbc[N].jar   

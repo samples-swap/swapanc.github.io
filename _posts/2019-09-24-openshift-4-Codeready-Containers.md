@@ -9,6 +9,7 @@ tags: [openshift,minishift,codeready containers]
 summary: Openshift 4.* on your Windows 10 pro machine
 ---
 ## Openshift on your Windows 10 pro machine
+
 Make sure your machine is multi core and has at last 16gb of ram.
 Windows 10 PRO is a requirement.
 

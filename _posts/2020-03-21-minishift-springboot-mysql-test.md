@@ -7,7 +7,8 @@ subtitle:
 summary: springboot mysql on openshift minishift sandbox
 ---
 
-## Minishift   
+## Minishift
+
 ```bash
 mkdir apptest ;\
 cd apptest ;\
