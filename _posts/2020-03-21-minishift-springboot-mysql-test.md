@@ -5,7 +5,8 @@ title: springboot mysql on openshift minishift sandbox
 date: 2020-03-20 04:28
 subtitle: 
 summary: springboot mysql on openshift minishift sandbox
---- 
+---
+
 ## Minishift   
 ```bash
 mkdir apptest ;\

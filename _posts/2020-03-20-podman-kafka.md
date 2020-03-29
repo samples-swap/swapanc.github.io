@@ -8,7 +8,9 @@ author: Swapan Chakrabarty
 tags: [openshift,minishift,codeready containers,docker,podman]
 summary: podman kafka instead of Docker
 ---
+
 ### clean-up containers
+
 ```bash
 bash << EOF
 podman stop $(podman ps -a -q)
