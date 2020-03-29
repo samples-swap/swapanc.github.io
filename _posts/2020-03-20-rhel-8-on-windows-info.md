@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: notes on everything im wokring o
+title: notes on everything im wokring
 date: 2020-03-26 03:28
 category: notes
 author: Swapan Chakrabarty
