@@ -2,16 +2,22 @@
 layout: post
 published: true
 title: katacoda openshift springboot mysql test
-date: 2020-03-22 03:28
+date: '2020-03-22 03:28'
 category: notes
 author: Swapan Chakrabarty
-tags: [openshift,minishift,codeready containers,docker,podman]
+tags:
+  - openshift
+  - minishift
+  - codeready containers
+  - docker
+  - podman
 summary: springboot mysql on openshift Katacoda sandbox
----   
+---
+   
 
 ## Katacoda
 
-go to: [https://katacoda.com/courses/openshift/playground](https://katacoda.com/courses/openshift/playground)
+go to: [https://katacoda.com/courses/openshift/playground](https://www.katacoda.com/openshift/courses/playgrounds/openshift42)
 
 ## generate sample project
 
@@ -79,4 +85,4 @@ curl http://swapapp-myproject.192.168.1.204.nip.io/demo/all
 {"name":"Solaris 11","lastaudit":1502582400000,"id":3},      
 {"name":"SpringBootMysqlTest","lastaudit":1548892800000,"id":4}
 ]
-``` 
+```
